@@ -1,0 +1,9 @@
+---
+enable: true
+testimonial:
+    - author: "Testimonial 1"
+      testimonialDetails: "Behind every great mind, there is a great soul"
+    - author: "Yarnban"
+      testimonialDetails: "Behind every great body, there is a great soul"
+---
+

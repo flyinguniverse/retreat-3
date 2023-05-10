@@ -1,0 +1,48 @@
+.why {
+  background: #f4f4f4;
+  display: flex;
+  padding: 50px 0;
+  margin-top: 3rem;
+  margin-bottom: 20px;
+  @include mobile {
+    padding: 20px 0;
+  }
+  &-item {
+    background: $white;
+    padding: 50px 30px 50px;
+    text-align: center;
+    border: 1px solid #eae9e9;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+
+    @include mobile {
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    i {
+      font-size: 45px;
+      margin-bottom: 40px;
+      color: $text-color-dark;
+      display: inline-block;
+      transition: all 0.3s ease-in-out;
+    }
+    h3 {
+      //text-transform: capitalize;
+      line-height: 26px;
+      text-align: left;
+    }
+    p {
+      font-size: 1 rem;
+      text-align: left;
+      line-height: 26px;
+      margin-bottom: 0;
+    }
+    &:hover {
+      transform: scale(1.05);
+      i {
+        color: $primary-color;
+      }
+    }
+  }
+}

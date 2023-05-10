@@ -1,0 +1,28 @@
+---
+enable: true
+title: "Retreat: Special Offer"
+subtitle: >
+    Offer: Just book the retreat, pay the preparation fee and get access to our
+    community
+buttonTarget: "contact"
+itemPrices:
+    - packcage: "Community"
+      description: >
+          Monthly Fee, Become part of our community!
+      price: 39
+      badge:
+    - packcage: "Preparation Retreat"
+      description: >
+          Start with the preparation for the Retreat and receive Access to our
+          community for free til your retreat is starting and a free
+          1-Day-Retreat.
+      price: 149
+      badge: start here
+    - packcage: "Retreat"
+      description: >
+          10-Day Retreat includes accomodation and food. We deduct the
+          preparation fee
+      price: 1999
+      badge:
+---
+

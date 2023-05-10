@@ -1,0 +1,39 @@
+---
+enable: true
+title: "We search spiritually determined seekers"
+subtitle: >
+    This offer is for you because
+reasons:
+    - name: "You have the wish to exit cycle of reincarnation"
+      description: >
+          You know that the cycle of Samsara must be broken, and you wish to do
+          so in this lifetime in the fastest, most pleasant and most effective
+          manner. You understand that exiting the world of illusion on your own
+          is not a realistic goal in the modern world. You have lived a life or
+          remembered a past life that you never wish to live again in any
+          reincarnation.
+      icon: "ti-new-window"
+    - name: "You are on the spiritual path towards Unity and Awakening"
+      description: >
+          You have found that all religions & teachings speak of the same idea
+          but lack practical guielines in order to move toward it. You are
+          looking for an enlightened teacher that can show you the next steps on
+          your path. You realize you are not separate from the global human
+          condition and cannot let it continue this way.
+      icon: "ti-infinite"
+    - name:
+          "You're not looking for a commercialized wellness retreat or
+          yoga-holidays"
+      description: >
+          We have a modern, effective and proven methodology to reach higher
+          levels of consciousness, come into deep contact with the
+          absolute/god/higher self and transmit it to this reality. And it’s a
+          journey that requires a global team of dedicated seekers in order to
+          overcome the level of consumerism and egoism currently present in the
+          world. Which is why we are looking for friends from all over the world
+          who wish to join us in transferring the knowledge to others, build
+          study centers and awaken our shared creation.
+      icon: "ti-close"
+
+---
+

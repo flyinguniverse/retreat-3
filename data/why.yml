@@ -1,0 +1,40 @@
+---
+enable: true
+title: "Why Choose us?"
+subtitle: >
+    We enable people to live the life they imagine. With purpose, inner peace,
+    deep freedom and abundant joy. We want to awaken as many people as possible
+    and ultimatively persue the path to the exit of samsara
+services:
+    - name: "large community"
+      description: >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel
+          mollitia sit. Dicta maxime ullam quos sapiente eveniet odio accusamus.
+      icon: "ti-view-grid"
+    - name: "Access to enlighened teacher"
+      description: >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel
+          mollitia sit. Dicta maxime ullam quos sapiente eveniet odio accusamus.
+      icon: "ti-infinite"
+    - name: "Awakened instructors"
+      description: >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel
+          mollitia sit. Dicta maxime ullam quos sapiente eveniet odio accusamus.
+      icon: "ti-help-alt"
+    - name: "Keys for all aspects of your life"
+      description: >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel
+          mollitia sit. Dicta maxime ullam quos sapiente eveniet odio accusamus.
+      icon: "ti-credit-card"
+    - name: "Prooven methodology "
+      description: >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel
+          mollitia sit. Dicta maxime ullam quos sapiente eveniet odio accusamus.
+      icon: "ti-lock"
+    - name: "Purposeful way of living"
+      description: >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel
+          mollitia sit. Dicta maxime ullam quos sapiente eveniet odio accusamus.
+      icon: "ti-image"
+---
+
