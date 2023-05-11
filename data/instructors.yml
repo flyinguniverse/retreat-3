@@ -1,0 +1,21 @@
+---
+enable: true
+title: "Retreat Instructors"
+subtitle: >
+  The Retreat is guided by our Enlightened Teacher Genadin and a Team of  Instructors
+investor:
+  - name: "Alex"
+    post: "Instructor"
+    image: "images/team/Alex_640x640.webp"
+  - name: "Nikita (Nik)"
+    post: "Instructor"
+    image: "images/team/Nikita_Losenko-1024x1024.jpg"
+  - name: "Anna"
+    post: "Awakened Instructor"
+    image: "images/team/Anna-768x767.jpg"
+  - name: "Nikita"
+    post: "Awakened Instructor"
+    image: "images/team/Nikita_B_640x640.webp"
+
+---
+
