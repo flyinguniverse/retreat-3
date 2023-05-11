@@ -3,7 +3,7 @@
 baseURL = "worldofawakening.netlify.app"
 languageCode = 'en-us'
 paginate = 6
-theme= "coHub"
+#theme= "coHub"
 title = 'Retreat - World of Awakening'
 
 [Menu]
