@@ -41,7 +41,7 @@ title = 'Retreat - World of Awakening'
   googleAnalytics = "G-xxxxxxxx"
   logo = "images/corporate/world-of-awakening-logo.png"
   footerlogo = "images/corporate/world-of-awakening-logo.png"
-  footerDescription = "Footer Description from the config.toml"
+  footerDescription = "woa is a nonprofit organisation operating worldwide"
 
   [params.address]
   address = "US and AMERICA "
@@ -70,7 +70,7 @@ title = 'Retreat - World of Awakening'
   # Socail icons
   [[params.social]]
   icon = "ti-facebook"
-  url = "https://www.facebook.com/"
+  url = "https://www.facebook.com/AWKNtheWorld/"
   weight = 1
   [[params.social]]
   icon = "ti-twitter-alt"
@@ -78,7 +78,7 @@ title = 'Retreat - World of Awakening'
   weight = 2
   [[params.social]]
   icon = "ti-instagram"
-  url = "https://www.instagram.com/"
+  url = "https://www.instagram.com/world_of_awakening/"
   weight = 3
 
 

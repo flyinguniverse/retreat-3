@@ -5,14 +5,7 @@
         <div class="footer-logo">
           <img src="{{ .Site.Params.footerlogo | absURL }}" alt="logo" />
         </div>
-        <p class="footer-description">
-          {{ .Site.Params.footerDescription }}
-        </p>
-        <div class="footer-text-block">
-          <p>
-            {{ .Site.Params.address.address | safeHTML }}
-          </p>
-        </div>
+        <p class="footer-description"></p>
       </div>
       {{ $socialIcon := .Site.Params.social }}
       <div class="col-lg-6 col-md-12 ">
@@ -40,9 +33,10 @@
       </div>
     </div>
     <div class=" row">
-      <div class="copyright col-sm-12 ">
+      <div class="copyright col-sm-12 text-center border-top pt-3">
         <p>
-          {{ replace .Site.Params.copyright "{year}" now.Year | safeHTML }}
+          {{ replace .Site.Params.copyright "{year}" now.Year | safeHTML }} -
+          {{ .Site.Params.footerDescription }}
         </p>
       </div>
     </div>

@@ -1,0 +1,11 @@
+---
+enable: true
+title: "What others experienced"
+clients:
+  - image: "images/trustpilot/paul.jpg"
+  - image: "images/trustpilot/saghir.jpg"
+  - image: "images/trustpilot/jason.jpg"
+  - image: "images/trustpilot/nn.jpg"
+  - image: "images/trustpilot/florin.jpg"
+---
+

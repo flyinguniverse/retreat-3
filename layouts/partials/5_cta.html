@@ -1,0 +1,37 @@
+{{with .Site.Data.cta}} {{ if .enable }}
+<section class="cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="cta-content">
+                    <h2>Book A Zoom Call with an Instructor</h2>
+                    <p class="text-left text-white font-weight-bolder">The first step is to schedule an online Zoom meeting with one of our retreat guides & Instructors. During this meeting, you can ask any questions you have, get to know us, and learn more about the retreat and the retreat preparation process.
+We, the guides & Instructors, are ourselves all students of World of Awakening. And we started our journey by attending this transformative retreat, and the impact it left on us led us to continue our path forward.
+We are very passionate and excited to help you take the next step on your path.
+</p>
+                    <a
+                        href="https://calendly.com/worldofawakening/lets-talk?a=wde" target="_blank"
+                        class="btn btn-primary mb-3"
+
+                    >
+                        Book your free call
+                    </a>
+
+                    {{/* comments here
+
+              {{/* comments here
+                    <p style="font-size: 12px">
+                        or check out
+                        <a
+                            class="scroll-to"
+                            href="{{ $.Site.BaseURL }}{{ .priceLink }}"
+                            >www.worldofawakening.com</a
+                        >
+                    </p>href="{{.buttonTarget | absURL }}"
+                    */}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{end}} {{end}}
