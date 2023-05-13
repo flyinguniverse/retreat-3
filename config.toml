@@ -71,7 +71,7 @@ title = 'Retreat - World of Awakening'
   # Socail icons
   [[params.social]]
   icon = "ti-youtube"
-  url = "https://twitter.com/"
+  url = "https://www.youtube.com/@WorldOfAwakening/"
   weight = 2
   [[params.social]]
   icon = "ti-facebook"

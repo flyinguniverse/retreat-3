@@ -59,11 +59,10 @@
   }
 }
 
-#trustpilot .slick-track {
-  height: 170px;
-  padding-bottom: 50px;
-}
 #trustpilot .slick-slide {
-  background: whitesmoke;
-  height: 150px;
+  height: 140px;
+}
+#trustpilot .slick-slide img {
+  background: #a1c7c7;
+  padding: 0.5rem;
 }
