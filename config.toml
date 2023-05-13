@@ -1,7 +1,7 @@
 #baseURL = 'https://awakeninig-retreat.netlify.app'
 #baseURL = 'https://woa.cicy.de'
 #baseURL = "https://worldofawakening.netlify.app/"
-baseURL = "https://rt.worldofawakening.com/"
+baseURL = "https://r.worldofawakening.com/"
 languageCode = 'en-us'
 paginate = 6
 #theme= "coHub"
