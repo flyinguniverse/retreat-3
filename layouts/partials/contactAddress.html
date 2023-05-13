@@ -1,62 +1,60 @@
-{{ $address := .Site.Params.address}}
-{{ $addressEU := .Site.Params.addressEU}}
+{{ $address := .Site.Params.address }}
+{{ $addressEU := .Site.Params.addressEU }}
 <section class="contact" id="contact">
-    <div class="container-fulid">
-        <div class="row no-gutters">
-            <div class="col-lg-6 us">
-                <div class="contact-aria us">
-                    <h3>{{ $address.address | safeHTML }}</h3>
-                    <ul>
-                        <li>
-                            <a href="mailto:{{ $address.email }}"
-                                >{{ $address.email }}</a
-                            >
-                        </li>
+  <div class="container-fulid">
+    <div class="row no-gutters">
+      <div class="col-lg-6 us">
+        <div class="contact-aria us">
+          <h3>{{ $address.address | safeHTML }}</h3>
+          <ul>
+            <li>
+              <a href="mailto:{{ $address.email }}">{{ $address.email }}</a>
+            </li>
 
-                        <li>
-                            <a href="tel:{{ $address.phone}}"
-                                >WhatsApp: {{ $address.whatsApp }}</a
-                            >
-                        </li>
-                         <li>
-                         </br>
-                            Telegram: {{ $address.telegram }}</a
-                            >
-                        </li>
-                    </ul>
-                    <p>{{ $address.openingDesc }}</p>
-                    <p>Atlanta: {{ $address.openingHours }}</p>
-                </div>
-            </div>
-            <div class="col-lg-6 eu">
-                <div class="contact-aria eu">
-                    <h3>{{ .Site.Params.addressEU.address | safeHTML }}</h3>
-                    <ul>
-                        <li>
-                            <a href="mailto:{{ $addressEU.email }}"
-                                >{{ $addressEU.email }}</a
-                            >
-                        </li>
-                        <li>
-                            <a href="tel:{{ $address.phoneEU}}"
-                                >Phone: {{ $addressEU.phone }}</a
-                            >
-                        </li>
-                        <li>
-                            <a href="tel:{{ $address.phoneEU}}"
-                                >WhatsApp: {{ $addressEU.whatsApp }}</a
-                            >
-                        </li>
-                        <li>
-                            <a href="tel:{{ $address.phoneEU}}"
-                                >Telegram: {{ $addressEU.telegram }}</a
-                            >
-                        </li>
-                    </ul>
-                    <p>{{ $addressEU.openingDesc }}</p>
-                    <p>{{ $addressEU.openingHours }}</p>
-                </div>
-            </div>
+            <li>
+              <a href="tel:{{ $address.phone }}"
+                >WhatsApp: {{ $address.whatsApp }}</a
+              >
+            </li>
+
+            <li>
+              <br />
+              <a href="tel:{{ $address.telegram }}"
+                >Telegram: {{ $address.telegram }}</a
+              >
+            </li>
+          </ul>
+          <p>{{ $address.openingDesc }}</p>
+          <p>Atlanta: {{ $address.openingHours }}</p>
         </div>
+      </div>
+      <div class="col-lg-6 eu">
+        <div class="contact-aria eu">
+          <h3>{{ .Site.Params.addressEU.address | safeHTML }}</h3>
+          <ul>
+            <li>
+              <a href="mailto:{{ $addressEU.email }}">{{ $addressEU.email }}</a>
+            </li>
+            <li>
+              <a href="tel:{{ $address.phoneEU }}"
+                >Phone: {{ $addressEU.phone }}</a
+              >
+            </li>
+            <li>
+              <a href="tel:{{ $address.phoneEU }}"
+                >WhatsApp: {{ $addressEU.whatsApp }}</a
+              >
+            </li>
+            <li>
+              <a href="tel:{{ $address.phoneEU }}"
+                >Telegram: {{ $addressEU.telegram }}</a
+              >
+            </li>
+          </ul>
+          <p>{{ $addressEU.openingDesc }}</p>
+          <p>{{ $addressEU.openingHours }}</p>
+        </div>
+      </div>
     </div>
+  </div>
 </section>

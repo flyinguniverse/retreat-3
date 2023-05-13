@@ -1,7 +1,9 @@
 ---
 enable: true
-title: "What others experienced"
+title: >
+  What others experienced
 clients:
+  - image: "images/trustpilot/logo-white.svg"
   - image: "images/trustpilot/paul.jpg"
   - image: "images/trustpilot/saghir.jpg"
   - image: "images/trustpilot/jason.jpg"
