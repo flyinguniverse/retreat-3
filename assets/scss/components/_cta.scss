@@ -18,8 +18,22 @@
     }
   }
 }
-.cta a.btn-primary {
+.cta a.btn-primary,
+.btn-cta {
   background-color: #ffb544;
   color: $cta-bgcolor;
   font-size: 1.8rem;
 }
+
+/*
+.cta .modal-dialog,
+.cta .modal-content {
+  // 80% of window height
+  height: 80%;
+}
+.cta .modal-body {
+  // 100% = dialog height, 120px = header + footer
+  max-height: calc(100% - 120px);
+  overflow-y: scroll;
+}
+*/

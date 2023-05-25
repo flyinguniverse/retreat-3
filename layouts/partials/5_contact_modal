@@ -1,0 +1,36 @@
+<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Hello</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Thank you for contacting us:</p>
+        <iframe
+          id="fluentform"
+          width="100%"
+          loading="lazy"
+          height="500px"
+          style="min-height: 500px; width: 100%"
+          frameborder="0"
+          src="https://worldofawakening.com/?ff_landing=8&embedded=1"
+          onload="this.style.height=(this.contentWindow.document.body.scrollHeight+40)+'px';"
+        ></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

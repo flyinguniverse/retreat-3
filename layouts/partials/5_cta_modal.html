@@ -1,0 +1,61 @@
+{{ with .Site.Data.cta }}
+  {{ if .enable }}
+    <section class="cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="cta-content">
+              <h2>{{ .title }}</h2>
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn-cta btn btn-primary mb-3"
+                data-toggle="modal"
+                data-target="#contact-us"
+              >
+                Schedule a conversation
+              </button>
+
+              <!-- Button trigger modal -->
+              <div class="modal" tabindex="-1" role="dialog" id="contact-us">
+                <div
+                  class="modal-dialog modal-dialog-scrollable"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Welcome</h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Thank you for contacting us:</p>
+                      <iframe
+                        id="fluentform"
+                        width="100%"
+                        loading="lazy"
+                        height="500px"
+                        style="min-height: 500px; width: 100%"
+                        frameborder="0"
+                        src="https://worldofawakening.com/?ff_landing=8&embedded=1"
+                        onload="this.style.height=(this.contentWindow.document.body.scrollHeight+40)+'px';"
+                      ></iframe>
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}
