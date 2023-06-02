@@ -1,0 +1,71 @@
+{{ with .Site.Data.galleryNextRetreatUS }}
+  <section class="gallery" id="gallery-next-retreat-US">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title">
+            <h2>Next Retreat in US | July 22nd - 31st</h2>
+            <h3>10 Days of Stillness</h3>
+            <p>Art of Living Retreat Center, Boone - North Carolina</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        {{ range .galleryImage }}
+          <div class="col-md-6">
+            <div class="gallery-item">
+              <a
+                href="{{ .image | absURL }}"
+                data-source="{{ .image | absURL }}"
+                title="Retreat"
+              >
+                <img src="{{ .image | absURL }}" alt="gallery-images" />
+              </a>
+            </div>
+          </div>
+        {{ end }}
+        <div class="col-md-6">
+          <h3>10 Days of Stillness</h3>
+          <p>
+            We invite you to immerse yourself in the nature of self-awareness,
+            where you can calm your mind, heal your body, get rid of stress,
+            feel joy and peace. This retreat is for those who is striving for
+            spiritual development and ready to take actions toward this goal.
+            Our methodology will allow you to get on a higher level of
+            consciousness in a short period of time and change your perception
+            of reality. Get unforgettable experience of total present moment and
+            inner stillness. We will share our powerful techniques which lead to
+            awakening and further transformation.
+          </p>
+          <h3>For any questions you can contact:</h3>
+
+          <ul>
+            <li>+1 (404) 476-0457 - <b>Nikita</b></li>
+            <li>+1 (678) 490-5961 - <b>Alex</b></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Location:</h3>
+          <p>
+            Art of Living retreat center, Boone, North Carolina A magical place
+            which is surrounded by beautiful nature.
+          </p>
+          <h3>Total Price - $2450</h3>
+
+          <h4>including:</h4>
+
+          <ul>
+            <li>Hotel accommodation</li>
+            <li>Meals</li>
+            <li>Main training</li>
+            <li>Preparation with a personal curator</li>
+            <li>2 preparatory online webinars before the retreat</li>
+            <li>Joint online classes 2 weeks after the retreat</li>
+          </ul>
+          <p>Prepayment of $349 is required</p>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
