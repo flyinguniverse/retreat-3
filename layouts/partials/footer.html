@@ -25,7 +25,9 @@
             {{ $sitemap := .Site.Menus.sitemap }}
             {{ range $sitemap }}
               <li>
-                <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+                <a href="{{ .URL | absURL }}" aria-label="SocialIcon"
+                  >{{ .Name }}
+                </a>
               </li>
             {{ end }}
           </ul>
