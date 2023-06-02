@@ -7807,8 +7807,8 @@ a.text-dark:focus, a.text-dark:hover {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  color: #999db1;
-  background: linear-gradient(#fff, rgba(183, 231, 250, 0.4274509804));
+  color: #808080;
+  background: #FFF;
 }
 
 h1,
@@ -7817,46 +7817,45 @@ h3,
 h4,
 h5,
 h6 {
-  color: #19879b;
+  color: #252525;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
 p {
-  font-size: 1rem;
-  color: #999db1;
-  line-height: 1.5;
+  font-size: 16px;
+  color: #808080;
+  line-height: 26px;
   font-weight: 300;
   letter-spacing: 0.5px;
 }
 
 h1 {
-  font-weight: 70000;
-  font-size: 3.5rem;
-  line-height: 1.2;
+  font-size: 44px;
+  line-height: 58px;
 }
 
 h2 {
-  font-size: 2rem;
-  line-height: 1.2;
+  font-size: 33px;
+  line-height: 45px;
   font-weight: 300;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 19px;
   font-weight: 400;
-  padding-bottom: 1.1rem;
+  color: #252525;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
 }
 
 .btn-primary {
-  background: #206562;
+  background: #007af5;
   color: #fff;
-  border: 1px solid #206562;
+  border: 1px solid #007af5;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   padding: 15px 40px;
@@ -7928,11 +7927,7 @@ h4 {
   }
 }
 .main-nav .navbar-brand img {
-  width: 250px;
-  background-color: white;
-  padding: 0 30px;
-  border-radius: 33px;
-  border-bottom-right-radius: 0;
+  width: 100px;
 }
 .main-nav .navbar-toggler {
   outline: 0;
@@ -7941,7 +7936,7 @@ h4 {
 .main-nav .navbar-toggler .icon-bar {
   width: 25px;
   height: 2px;
-  background: #5477f8;
+  background: #5477F8;
   transition: all 0.2s;
   display: block;
 }
@@ -7997,7 +7992,7 @@ h4 {
 }
 .main-nav.nav-bg .account-list li a, .main-nav.main-nav-colored .account-list li a {
   color: #fff;
-  background: #5477f8;
+  background: #5477F8;
   box-shadow: none;
 }
 .main-nav-colored {
@@ -8037,13 +8032,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-}
-.hero h1,
-.hero h2,
-.hero h3,
-.hero h4,
-.hero p {
-  color: white;
+  background: rgba(0, 0, 0, 0.5);
 }
 .hero-content {
   text-align: center;
@@ -8053,7 +8042,7 @@ h4 {
 .hero-content h1 {
   color: #fff;
   margin-bottom: 15px;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 70px;
 }
 @media (max-width: 767px) {
@@ -8074,12 +8063,9 @@ h4 {
     line-height: 40px;
   }
 }
-.hero-content h3 {
-  color: white;
-}
 .hero-content p {
   color: #fff;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 32px;
   width: 83%;
   margin: 0 auto 50px;
@@ -8132,7 +8118,7 @@ h4 {
   transform: scale(1.2);
 }
 .hero-video-player .hero-video-player-icon a:hover i {
-  color: #206562;
+  color: #007af5;
   font-size: 20px;
 }
 .hero-video-player .hero-video-player-icon a i {
